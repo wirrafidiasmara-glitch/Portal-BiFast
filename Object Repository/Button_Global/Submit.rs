@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Filter Data</name>
+   <name>Submit</name>
    <tag></tag>
-   <elementGuidId>93df0585-6bad-47a1-986b-afa699c0eebf</elementGuidId>
+   <elementGuidId>bdaf35c9-1e16-4243-8f2d-ef50c2255f3d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Filter Data' or . = 'Filter Data')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//form[@id='saveForm']/div[2]/span/button</value>
+         <value>//button[@type='submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.p-button-sm.p-button-edit.merapi-button.p-button.p-component</value>
+         <value>button.p-button-sm.merapi-button-page.p-button.p-component</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#saveForm >> internal:role=button[name=&quot;Filter Data&quot;i]</value>
+         <value>internal:role=button[name=&quot;Submit&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,94 +29,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>7a74f22c-9701-45a9-86e4-177f77dc603e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>label</name>
-      <type>Main</type>
-      <value>Filter Data</value>
-      <webElementGuid>9118d1e2-b8da-4156-aa89-3377156f8bbc</webElementGuid>
+      <webElementGuid>33a9f8e7-b3cf-43de-b549-b9d792bec7b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>icon</name>
       <type>Main</type>
-      <value>pi pi-search</value>
-      <webElementGuid>0796362a-ccd1-4cd8-b860-febd4f74763c</webElementGuid>
+      <value>pi pi-plus</value>
+      <webElementGuid>2c202825-7103-445d-833c-770e7f17b745</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>6cdef8e6-1cae-4988-9d13-3773d2a61124</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>form</name>
+      <type>Main</type>
+      <value>saveForm</value>
+      <webElementGuid>93ec3e69-63f2-4838-8da2-8caaec9952d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-button-sm p-button-edit merapi-button p-button p-component</value>
-      <webElementGuid>3538c563-1991-406d-a0ed-195860d94b89</webElementGuid>
+      <value>p-button-sm merapi-button-page p-button p-component</value>
+      <webElementGuid>8fa8ee4c-96fe-45b5-a8f0-3cd8081aece3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Filter Data</value>
-      <webElementGuid>7f53e8b1-cc6e-4d97-8044-811c04fd386a</webElementGuid>
+      <value>Submit</value>
+      <webElementGuid>e9083dd5-7826-43a6-b29a-3fb00e315e1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;saveForm&quot;)/div[@class=&quot;flex flex-column md:flex-row md:align-items-center btn-filter&quot;]/span[@class=&quot;block mt-2 md:mt-0 p-input-icon-left&quot;]/button[@class=&quot;p-button-sm p-button-edit merapi-button p-button p-component&quot;]</value>
-      <webElementGuid>9d4b553c-3d78-410a-942b-8f846a2afe5b</webElementGuid>
+      <value>id(&quot;pn_id_182_content&quot;)/div[@class=&quot;p-panel-content ng-tns-c3953506556-38&quot;]/div[@class=&quot;p-formgrid grid btn-left ng-tns-c3953506556-38&quot;]/div[@class=&quot;field col-2&quot;]/button[@class=&quot;p-button-sm merapi-button-page p-button p-component&quot;]</value>
+      <webElementGuid>ac6c45f5-9af0-44f2-9fec-a9d1634e730d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>0b1283f8-f17b-4e8c-b9c3-60c0a54417a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='saveForm']/div[2]/span/button</value>
-      <webElementGuid>2765f1a9-c978-4895-9785-3e8df154b9eb</webElementGuid>
+      <value>//div[@id='pn_id_182_content']/div/div/div[2]/button</value>
+      <webElementGuid>cabfc6ba-335a-4e7e-9e3c-cd727c14bf47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proxy Status'])[1]/following::button[2]</value>
-      <webElementGuid>17eeaf71-14ab-4ce5-89e1-3fe074e24364</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <webElementGuid>cfecd554-37f4-43c2-bf14-ddb2b502246c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proxy Alias'])[3]/following::button[2]</value>
-      <webElementGuid>0b3944bf-bd8b-4497-8b2f-f7fadbf63bd5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proxy Alias'])[4]/preceding::button[1]</value>
-      <webElementGuid>2db0d8ac-be87-4569-b2ac-61465a53ae0d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::button[2]</value>
+      <webElementGuid>fd1631f2-c5dc-475b-ba49-021c3e70886c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/button</value>
-      <webElementGuid>0694a26f-786f-4de4-924c-33989ae78b52</webElementGuid>
+      <value>//div[2]/button</value>
+      <webElementGuid>4cda7c02-3d15-43a7-ba26-6672813e03df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Filter Data' or . = 'Filter Data')]</value>
-      <webElementGuid>90e7fe5c-7f01-4b99-b616-3b11c680a74d</webElementGuid>
+      <value>//button[@type = 'submit' and @form = 'saveForm' and (text() = 'Submit' or . = 'Submit')]</value>
+      <webElementGuid>32cb226a-3f1b-4126-9494-f63398b03434</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
